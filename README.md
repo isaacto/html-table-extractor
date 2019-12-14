@@ -1,6 +1,13 @@
 # HTML Table Extractor
 [![Build Status](https://travis-ci.org/yuanxu-li/html-table-extractor.svg?branch=master)](https://travis-ci.org/yuanxu-li/html-table-extractor)
 
+Note: This is a re-release of html-table-extractor of yuanxu-li,
+existing just because I've been waiting for too long for an actual
+release to fix the incorrect dependency (pipenv would refuse to
+install new version of BeautifulSoup using the original version
+1.4.0).  I've kept changes to a minimum, just to add this notice, fix
+setup.py to make it PyPI friendly, and change the PyPI package name.
+
 _HTML Table Extractor is a python library that uses [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) to extract data from complicated and messy html table_
 
 ## Important links

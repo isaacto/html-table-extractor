@@ -13,14 +13,14 @@ from setuptools import setup, find_packages
 here = os.path.abspath(os.path.dirname(__file__))
 
 with open(os.path.join(here, 'README.md')) as f:
-    long_description = f.read()
+    long_description = f.read() + '\n'
 
 setup(
-    name='html-table-extractor',
-    url='https://github.com/yuanxu-li/html-table-extractor',
-    version='1.4.0',
-    author='Justin Li',
-    author_email='yuanxu.lee@gmail.com',
+    name='isaacto-html-table-extractor',
+    url='https://github.com/isaacto/html-table-extractor',
+    version='1.4.0.1',
+    author='Isaac To',
+    author_email='isaac.to@gmail.com',
     description='A python library for extracting data from html table',
     license='MIT',
     classifiers=[
@@ -40,4 +40,5 @@ setup(
         'beautifulsoup4>=4.0.0',
     ],
     long_description=long_description,
+    long_description_content_type='text/markdown',
 )
